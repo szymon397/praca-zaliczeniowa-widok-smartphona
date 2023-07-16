@@ -1,0 +1,1 @@
+# praca-zaliczeniowa-widok-smartphona
