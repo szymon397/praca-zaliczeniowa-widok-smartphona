@@ -1,0 +1,182 @@
+body {
+  background-image: url('foto/walpapeer.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container {
+
+  padding-top: 20px; /* Zapewnia miejsce dla paska z ikonami */
+  /* Pozostałe style dla kontenera telefonu */
+}
+
+.container-clock {
+  position: relative;
+  padding-top: 20px; /* Zapewnia miejsce dla paska z ikonami */
+  /* Pozostałe style dla kontenera telefonu */
+}
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.top-bar i {
+  margin-left: 5px; /* Odstęp między ikonami */
+}
+
+.clock {
+  position: relative;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.search-bar input {
+  flex: 1;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  height: 40px;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #357ae8;
+}
+
+.search-bar button:focus {
+  outline: none;
+}
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin: 100px auto;
+
+
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Przykładowa przezroczystość */
+  margin: 5px;
+
+  border-radius: 5px;
+}
+
+.icon img.rounded-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon-call
+{
+  margin: 0 auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.icon img.rounded-image-call {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon-tech {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 15px;
+  transform: translateY(-40px);
+}
+
+.navigate-container {
+  margin: 0 auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Przykładowa przezroczystość */
+}
+
+.navigate-icons {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 15px;
+}
+
+.navigate-icons:not(:last-child) {
+  margin-right: 125px; /* Dodano margines prawy */
+}
